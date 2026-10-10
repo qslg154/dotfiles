@@ -180,7 +180,7 @@
 #let h6(..args) = heading(level: 6, outlined: false, numbering: none, ..args)
 
 // Main entry point to use in a global show rule
-#let evan(
+#let qslg(
   title: none,
   author: none,
   subtitle: none,

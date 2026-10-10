@@ -1,6 +1,6 @@
 #import "@local/qslg:1.0.0":*
 
-#show: evan.with(
+#show: qslg.with(
   title: [New Document],
   subtitle: none,
   author: "Evan Chen",
