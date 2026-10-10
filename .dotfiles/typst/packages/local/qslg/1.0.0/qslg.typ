@@ -3,7 +3,7 @@
 #import "@preview/fletcher:0.5.8" as fletcher: *
 // stolen from evan chen
 #let fonts = (
-  text: ("New Computer Modern Math"),
+  text: ("New Computer Modern"),
   sans: ("Noto Sans", "Noto Sans CJK TC", "Noto Color Emoji"),
   mono: ("Inconsolata"),
 )
