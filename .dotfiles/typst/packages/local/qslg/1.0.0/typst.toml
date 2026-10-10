@@ -1,0 +1,11 @@
+[package]
+name = "qslg"
+version = "1.0.0"
+entrypoint = "qslg.typ"
+authors = ["The Typst Project Developers"]
+license = "MIT"
+description = "Calculate elementary arithmetics with functions."
+
+[template]
+path = "template"
+entrypoint = "main.typ"
