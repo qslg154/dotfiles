@@ -101,11 +101,11 @@
 #let thm-style-plain = thm.with(..thm-args)
 #let thm-style-def = thm.with(..thm-args, body-fmt: x => x) // non-italic
 
-#let thm       = thm-style-plain.with(supplement: "Theorem", fill: rgb("#eeeeff"))
-#let lem       = thm-style-plain.with(supplement: "Lemma", fill: rgb("#eeeeff"))
-#let propn     = thm-style-plain.with(supplement: "Proposition", fill: rgb("#eeeeff"))
-#let cor       = thm-style-plain.with(supplement: "Corollary", fill: rgb("#eeeeff"))
-#let conj      = thm-style-plain.with(supplement: "Conjecture", fill: rgb("#eeeeff"))
+#let thm       = thm-style-def.with(supplement: "Theorem", fill: rgb("#eeeeff"))
+#let lem       = thm-style-def.with(supplement: "Lemma", fill: rgb("#eeeeff"))
+#let propn     = thm-style-def.with(supplement: "Proposition", fill: rgb("#eeeeff"))
+#let cor       = thm-style-def.with(supplement: "Corollary", fill: rgb("#eeeeff"))
+#let conj      = thm-style-def.with(supplement: "Conjecture", fill: rgb("#eeeeff"))
 #let ex        = thm-style-def.with(supplement: "Example", fill: rgb("#ffeeee"))
 #let algo      = thm-style-def.with(supplement: "Algorithm", fill: rgb("#ddffdd"))
 #let claim     = thm-style-def.with(supplement: "Claim", fill: rgb("#ddffdd"))
